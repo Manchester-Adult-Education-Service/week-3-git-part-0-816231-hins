@@ -67,7 +67,7 @@ print(f"In{current_year} ,you are living in {city} ." )
 # 3. Print a message showing their age and the current year
 year_born=int(input("Enter the year you born:"))
 age=int(current_year-year_born)
-print(f"My current age is {age}.")
+print(f"My current age is {age} and the current year is{current_year}.")
 
 # -------------------------------------------
 # Git Task: Submit your work!
