@@ -85,11 +85,16 @@ print(f"My current age is {age} and the current year is {current_year}.")
 # Extension A:
 # - Ask the user for their favourite drink and favourite place
 # - Print a single, short message using name, drink, and place
+favourite_drink=input("Enter your favourite drink :")
+favourite_place=input("Enter your favourite place :")
+print(f"Hi {name} ,your favourite drink is {favourite_drink} and favourite place is {favourite_place} .")
 
 # Extension B:
 # - Also ask the user for their favourite hobby
 # - Print a longer sentence combining year, age, and hobby
 #   e.g. "In 2025, Sam is 20 years old and enjoys cycling."
+favourite_hobby=input("Enter your favourite hobby:")
+print(f"In 2025 ,{name} is {age} years old and enjoys {favourite_hobby} .")
 
 # Extension C (Profile Card):
 # - Create a "profile card" with at least 4 variables:
@@ -103,11 +108,18 @@ print(f"My current age is {age} and the current year is {current_year}.")
 #    Age: ...
 #    Food: ...
 #    Colour: ...
-
+myName="Hinsha"
+myAge=38
+myFav_food="pasta"
+myfav_colour="Yellow"
+print(f"Name : {myName} \n Age : {myAge} \n Food : {myFav_food} \n Colour : {myfav_colour}")
 # Extension D (Bonus Maths):
 # - Ask the user for their age
 # - Print how old they will be in 5 years
 # - Print how many years until they are 100
+userAge=int(input("Enter your age :"))
+print(f" You will be {userAge + 5} after 5 years.")
+print(f"You will reach 100 in {100 - userAge}.")
 
 # -------------------------------------------
 # Git Task: Submit your work!
