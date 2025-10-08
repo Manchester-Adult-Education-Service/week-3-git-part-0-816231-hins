@@ -13,10 +13,10 @@
 # -----------------------------------------
 # A variable stores information with a NAME and a VALUE.
 # Example:
-# fruit = "apple"
-# colour = "red"
-# print(f"The {fruit} is {colour}!")
-#
+#fruit = "apple"
+ #colour = "red"
+ #print(f"The {fruit} is {colour}!")
+
 # 👉 Good variable names describe what they store (fruit, colour).
 
 # TODO:
@@ -27,6 +27,13 @@
 # 2. Print out 3 separate sentences using these variables with f-strings.
 #    For example: "My favourite sport is football."
 #    (Don’t just copy this! Use your own values.)
+favourite_colour=input("Enter your favourite colour:")
+favourite_number=int(input("Enter your favourite number:"))
+favourite_fruit=input("Enter your favourite fruit:")
+print(f"My favourite colour is {favourite_colour} .")
+print(f"My favourite number is {favourite_number} .")
+print(f"My favourite fruit is {favourite_fruit} .")
+
 
 # Step 2: Input Practice (ask the user for answers)
 # -------------------------------------------------
@@ -38,6 +45,8 @@
 # 1. Ask the user for their name
 # 2. Store it in a variable called "name"
 # 3. Print a message that says hello to them
+name=input("What is your name? ")
+print(f"Hello {name} ! Hope you are doing good.")
 
 # Step 3: Combine Variables and Input
 # -----------------------------------
@@ -48,11 +57,17 @@
 # **Below is a "pre-set" variable because we manually gave it a value**
 # current_year = 2025
 # print(f"In {current_year}, you are living in {city}.")
+city=input("what city do you live in? ")
+current_year=2025
+print(f"In {current_year} ,you are living in {city} ." )
 
 # TODO:
 # 1. Create a variable called current_year and set it to 2025
 # 2. Ask the user for their age
 # 3. Print a message showing their age and the current year
+year_born=int(input("Enter the year you born:"))
+age=int(current_year-year_born)
+print(f"My current age is {age} and the current year is {current_year}.")
 
 # -------------------------------------------
 # Git Task: Submit your work!
@@ -70,11 +85,16 @@
 # Extension A:
 # - Ask the user for their favourite drink and favourite place
 # - Print a single, short message using name, drink, and place
+favourite_drink=input("Enter your favourite drink :")
+favourite_place=input("Enter your favourite place :")
+print(f"Hi {name} ,your favourite drink is {favourite_drink} and favourite place is {favourite_place} .")
 
 # Extension B:
 # - Also ask the user for their favourite hobby
 # - Print a longer sentence combining year, age, and hobby
 #   e.g. "In 2025, Sam is 20 years old and enjoys cycling."
+favourite_hobby=input("Enter your favourite hobby:")
+print(f"In 2025 ,{name} is {age} years old and enjoys {favourite_hobby} .")
 
 # Extension C (Profile Card):
 # - Create a "profile card" with at least 4 variables:
@@ -88,11 +108,18 @@
 #    Age: ...
 #    Food: ...
 #    Colour: ...
-
+myName="Hinsha"
+myAge=38
+myFav_food="pasta"
+myfav_colour="Yellow"
+print(f"Name : {myName} \n Age : {myAge} \n Food : {myFav_food} \n Colour : {myfav_colour}")
 # Extension D (Bonus Maths):
 # - Ask the user for their age
 # - Print how old they will be in 5 years
 # - Print how many years until they are 100
+userAge=int(input("Enter your age :"))
+print(f" You will be {userAge + 5} after 5 years.")
+print(f"You will reach 100 in {100 - userAge}.")
 
 # -------------------------------------------
 # Git Task: Submit your work!
