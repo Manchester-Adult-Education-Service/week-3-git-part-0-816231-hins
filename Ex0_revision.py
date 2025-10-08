@@ -57,9 +57,9 @@ print(f"Hello {name} ! Hope you are doing good.")
 # **Below is a "pre-set" variable because we manually gave it a value**
 # current_year = 2025
 # print(f"In {current_year}, you are living in {city}.")
-city=input("what city do you live in?")
+city=input("what city do you live in? ")
 current_year=2025
-print(f"In{current_year} ,you are living in {city} ." )
+print(f"In {current_year} ,you are living in {city} ." )
 
 # TODO:
 # 1. Create a variable called current_year and set it to 2025
@@ -67,7 +67,7 @@ print(f"In{current_year} ,you are living in {city} ." )
 # 3. Print a message showing their age and the current year
 year_born=int(input("Enter the year you born:"))
 age=int(current_year-year_born)
-print(f"My current age is {age} and the current year is{current_year}.")
+print(f"My current age is {age} and the current year is {current_year}.")
 
 # -------------------------------------------
 # Git Task: Submit your work!
